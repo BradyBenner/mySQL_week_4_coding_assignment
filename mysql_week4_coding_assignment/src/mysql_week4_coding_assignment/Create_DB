@@ -1,0 +1,9 @@
+use mysql_week4_coding_assignment_db;
+drop table if exists spaceships;
+
+create table spaceships (
+	ship_id int auto_increment,
+	name varchar(80) not null,
+	speed double,
+	primary key (ship_id)
+);
